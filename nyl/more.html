@@ -200,7 +200,7 @@ window.hideSpinner = function () {
 document.addEventListener('DOMContentLoaded', async () => {
   try {
     const sheet = 'SeeMore'; // Set this to 'MusicPlans' or 'MainMenu' as needed
-    const appUrl = 'https://script.google.com/macros/s/AKfycbwSdQ5eu6joK_WZRrwiAqD9ZoYe1tFDAGBznv0zi8jOT4HW9g6CAGKLpBXBn2sE_CisiA/exec';
+    const appUrl = 'https://script.google.com/a/*/macros/s/AKfycbwxonsWbrzu5ocwAUpV8ERxAnOnwBaQKyhwTB7Xn-v7D92xOPEqwn4F8MNox5vfJmnDXA/exec';
     const response = await fetch(`${appUrl}?sheet=${sheet}`); // Fetch the data from your API
     const data = await response.json();
 
